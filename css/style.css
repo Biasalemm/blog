@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+background-color: hsl(204, 43%, 48%);
+display: flex;
+height: 70px;
+
+align-items: center;
+justify-content: center;
+}
+section{
+background-color: rgb(243, 233, 233);
+height: calc(100vh - 156px);
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 56px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+}
+.video{
+    justify-content: center;
+}
+.esquerdo{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(88, 88, 88);
+    color: aliceblue;
+    font-size: large;
+}
